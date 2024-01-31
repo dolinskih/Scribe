@@ -1,0 +1,2 @@
+# Scribe
+Projekt - aplikacja webowa
