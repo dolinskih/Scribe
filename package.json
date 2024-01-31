@@ -5,10 +5,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.14",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
     "next": "latest",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.70.0"
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=18"
