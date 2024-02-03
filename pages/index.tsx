@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
+import Layout from '../components/layout/layout';
 // import styles from '../styles/home.module.scss';
 import React from 'react';
+import Navbar from '../components/navbar';
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
        <Head>
         <title>Scribe - Strona główna</title>
       </Head>
-      <header>
-
-      </header>
+      <Navbar></Navbar>
     </Layout>
   );
 }
