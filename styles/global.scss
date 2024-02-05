@@ -210,3 +210,12 @@ body {
 .border-3{
   border:1px solid $black-03;
 }
+
+.row{
+  display:flex;
+  align-items: center;
+}
+
+.bigIcon{
+  font-size:250%;
+}

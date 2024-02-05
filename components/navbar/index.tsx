@@ -26,7 +26,7 @@ export default function Navbar(){
                 </div>
                 <div className={styles.item}>
                     <span className="icon">check_box</span>
-                    <p>Zadania</p>
+                    <p>Listy zadań</p>
                 </div>
             </div>
         </nav>

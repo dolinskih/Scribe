@@ -1,0 +1,14 @@
+.section{
+    width:98%;
+    padding: 1%;
+    background-color: rgb(240,240,240);
+    border-radius:10px;
+    .header{
+        display:flex;
+        align-items: center;
+        span{
+            margin-right:1%;
+        }
+    }
+    margin-bottom:2%;
+}
