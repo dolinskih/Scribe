@@ -19,10 +19,12 @@ export default function Home() {
           <p>Brak ostatnio utworzonych notatek lub list zadań.</p>
         </>}></Section>
         <Section SectionIcon='bolt' SectionHeading='Szybkie akcje' children={<>
-          <div className='row'>
-          <SectionButton icon="add_notes" label="Nowa notatka"></SectionButton>
-          <SectionButton icon="add_box" label="Nowa lista zadań"></SectionButton>
-          <SectionButton icon="person_add" label="Nowy zespół"></SectionButton>
+          <div className='container'>
+            <div className='row'>
+              <SectionButton icon="add_notes" label="Nowa notatka"></SectionButton>
+              <SectionButton icon="add_box" label="Nowa lista zadań"></SectionButton>
+              <SectionButton icon="person_add" label="Nowy zespół"></SectionButton>
+            </div>
           </div>
         </>}></Section>
       </>}></Main>

@@ -9,7 +9,7 @@ interface SectionParams{
 
 export default function Section({SectionIcon, SectionHeading, children}: SectionParams){
     return (
-        <section className={styles.section}>
+        <section className={`${styles.section} border`}>
             <div className={styles.header}>
                 <span className="icon">{SectionIcon}</span>
                 <h3>{SectionHeading}</h3>

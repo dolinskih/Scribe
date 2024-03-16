@@ -8,10 +8,10 @@ interface SectionButtonParams{
 
 export default function SectionButton({icon, label} : SectionButtonParams){
     return(
-        <div className={styles.btn}>
-            <div className={styles.box}>
-                <span className="icon">{icon}</span>
-            </div>
+        <div className="d-flex flex-column align-items-center col">
+            <button className="btn btn-dark p-3">
+                <span className="icon fs-2">{icon}</span>
+            </button>
             <p>{label}</p>
         </div>
     )

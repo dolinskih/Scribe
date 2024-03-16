@@ -3,8 +3,8 @@ import styles from './Navbar.module.scss';
 
 export default function Navbar(){
     return (
-        <nav className={`${styles.nav} border-3`}>
-            <div className={`${styles.item} marg-top-5`}>
+        <nav className={`${styles.nav} border-end border-dark-subtle`}>
+            <div className={`${styles.item}`}>
                 <span className="icon">more_vert</span>
             </div>
             <div className={styles.options}>
